@@ -1,7 +1,3 @@
-#include <bits/stdc++.h>
-
-using namespace std;
-
 class Solution
 {
 public:
@@ -24,14 +20,3 @@ public:
         return maxLen;
     }
 };
-
-int main()
-{
-
-    string s = " ";
-    Solution sol = Solution();
-    int len = sol.lengthOfLongestSubstring(s);
-    cout << len << endl;
-
-    return 0;
-}
